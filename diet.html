@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+
+    <title>Diet Plan</title>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark " >
+  <a class="navbar-brand" href="fitness.html"><nav class="logo">Ash-Thetic </nav> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="calculators.html">Calculators</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Planner
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="diet.html">Diet Plan</a>
+          <a class="dropdown-item" href="workout.html">Workout Plan</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="calculators.html">Calculators</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="about.html" >About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0" >
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<h1 style ="color :rgb(208, 253, 5);; text-align: center" class =" animate__animated animate__flipInX heading"><strong> Diet Plan</strong></h1>
+<hr class="hr1"><br>
+<h2 style="color: white;" class="animate__animated animate__zoomInDown"> Enter your details </h2><br><br> 
+        <div class = "container" >
+          <form name = "myform"  class="form-group" method="POST" data-email="ashutosh.ashutoshtripathi.trip@gmail.com" action ="https://script.google.com/macros/s/AKfycbwLdEQm6z_9InBlb3mMQE-H7z8gOUCmpJI9uNJWLTXfJwBcWRleFX_0/exec">
+                <div class = "row">
+
+                    <div class = "col-sm-4">
+                        <label for="inputname" style ="font-size: 2rem ; color: white;"><strong> Name </strong> </label>
+                        <input type = "text" class ="form-control" placeholder ="name" name ="name">
+                    </div>
+                    <div class ="col-sm-4">
+                        <label for="inputname"style ="font-size: 2rem;color: white;"><strong> Gender </strong>
+                        </label><br>
+                       <div>
+                        <input type="radio" id  ="male"  name ="gender" value ="male">
+                         <label for="male" style="color: white;"> Male</label>
+                     </div>
+                          
+                       <div>
+                       <input type="radio" id  ="female"  name ="gender" value ="female">
+                         <label for="female" style="color: white;"> Female</label>
+                     </div>
+                    
+                     <div>
+                         <input type="radio" id  ="other"  name ="gender" value ="other">
+                         <label for="other"style=" color: white;"> Other </label>
+                     </div>
+
+
+                        <br>
+                    </div>
+                </div>
+                 <div class = "row">
+                    
+                    <div class = "col-sm-4">
+                        <label for="inputname" style ="font-size: 2rem; color: white;"><strong> Height</strong> </label>
+                        <input type = "text" class ="form-control" placeholder ="in cm" name ="height">
+                    </div>
+                    <div class ="col-sm-4">
+                        <label for="inputname"style ="font-size: 2rem;color: white;"><strong> Weight </strong>
+                        </label>
+                        <input type="text" class ="form-control" placeholder="in kg" name ="weight"><br>
+                    </div>
+                </div>
+                 <div class = "row">
+                    <div class = "col-sm-4">
+                        <label for="inputname" style ="font-size: 2rem;color: white;"><strong> Age</strong> </label>
+                        <input type = "text" class ="form-control" name = "age">
+                    </div>
+                    <div class ="col-sm-4">
+                        <label for="inputname"style ="font-size: 2rem;color: white;"><strong> E-mail </strong>
+                        </label>
+                        <input type="email" class ="form-control" name ="email">
+                    </div>
+                </div>
+                <br>
+                <div class ="row">
+                    <div class ="col-sm-4">
+                        <label for="physicalactivity" style ="font-size: 2rem;color: white;"><strong> Physical Activity</strong>  </label><br>
+                        <select name ="activity" id ="activity">
+                            <option value="No activity "> No activity </option>
+                            <option value="Light activity "> Light Activity </option>
+                            <option value="Moderate activity "> Moderate Activity </option>
+                            <option value="Intense activity "> Intense Activity </option>
+                          
+                        </select>
+                    </div>
+                 
+                        <div class ="col-sm-4">
+                        <label for="inputname"style ="font-size: 2rem;color: white;"><strong>  Goal </strong>
+                        </label><br>
+                       <div>
+                        <input type="radio" id  ="fatloss"  name ="goal" value ="fatloss">
+                         <label for="fatloss"style="color: white;"> Fat Loss</label>
+                     </div>
+                          
+                       <div>
+                       <input type="radio" id  ="bulking"  name ="goal" value ="bulking">
+                         <label for="bulking"style="color: white;">Bulking </label>
+                     </div>
+                    
+                     <div>
+                         <input type="radio" id  ="shredding "  name ="goal" value ="shredding">
+                         <label for="shredding"style="color: white;"> Shredding </label>
+                     </div>
+                 </div></div><br>
+                  <div class= "row">
+                  <div class ="col-sm-4">
+                        <label for="inputname"style ="font-size: 2rem; color: white;"><strong> Food Type </strong>
+                        </label><br>
+                      
+                          
+                       <div>
+                       <input type="radio" id  ="bulking"  name ="foodtype" value ="veg">
+                         <label for="veg"style ="color: white;">Vegetarian </label>
+                     </div>
+                    
+                     <div>
+                         <input type="radio" id  ="nonveg"  name ="foodtype" value ="nonveg">
+                         <label for="nonveg" style ="color: white;"> Non-Vegetarian</label>
+                     </div></div>
+                                 
+                    <div class="col-sm-4"> 
+                        
+                      <input  class="btn btn-success" type="submit"value="Submit" style ="padding: 10px; border-radius : 80px; font-size: 2rem;">
+                      <div class="col-sm-4"><br>
+                      <input type="reset" class="btn btn-primary"
+                      style =" border-radius: 50px ; display: inline-block;"> 
+
+                    </div> 
+                        </div>
+                   
+                
+            </form>
+            <br><br>
+        </div>
+
+     
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
